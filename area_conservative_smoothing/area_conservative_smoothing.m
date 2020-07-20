@@ -23,3 +23,25 @@ visualize_grid(point.coord, xmin, xmax, ymin, ymax, 0);
 
 %% create point connectivity
 point = create_point_connectivity(marker, point);
+
+%% perform the smoothing
+for iter=1:max_iter
+    for num=1:point.total
+        % retrieve the point number using the connectivity
+%         [x0, x1, x2, x3] = retrieve_point_num(num, point);
+        if (two_nodes)
+            % avoid edge point
+            if ((x0 ~= -1) && (x3 ~= -1))
+%                 point = two_nodes_relaxation(x0, x1, x2, x3, point);
+            end           
+        else % single node relaxation on x1
+            % avoid edge point
+            if ((x0 ~= -1) && (x2 ~= -1))
+%                 point = single_node_relaxation(x0, x1, x2, point);
+            end  
+        end
+ 
+    end
+    % visualize the grid
+    visualize_grid(point.coord, xmin, xmax, ymin, ymax, iter);
+end
