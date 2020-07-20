@@ -28,7 +28,7 @@ point = create_point_connectivity(marker, point);
 for iter=1:max_iter
     for num=1:point.total
         % retrieve the point number using the connectivity
-%         [x0, x1, x2, x3] = retrieve_point_num(num, point);
+        [x0, x1, x2, x3] = retrieve_point_num(num, point);
         if (two_nodes)
             % avoid edge point
             if ((x0 ~= -1) && (x3 ~= -1))
