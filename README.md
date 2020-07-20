@@ -8,7 +8,7 @@
 ### Example
 * Area conservative smoothing:
 
-<img src="https://user-images.githubusercontent.com/16385717/87969883-37186300-cac3-11ea-9fcc-0488a2f2fae5.gif" width=45% height=45%> <img src="https://user-images.githubusercontent.com/16385717/87969893-3aabea00-cac3-11ea-97d7-3a8a05c8e6f7.gif" width=45% height=45%> 
+<img src="https://user-images.githubusercontent.com/16385717/87991143-d2bacb00-cae5-11ea-8908-8ed4bb099d2c.gif" width=45% height=45%> <img src="https://user-images.githubusercontent.com/16385717/87969893-3aabea00-cac3-11ea-97d7-3a8a05c8e6f7.gif" width=45% height=45%> 
 
 * Volume conservative smoothing:
 will be included
