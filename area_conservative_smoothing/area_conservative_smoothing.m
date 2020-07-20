@@ -21,3 +21,5 @@ two_nodes = true; % if false then single node relaxation is used.
 [xmin, xmax, ymin, ymax] = set_boundary(point);
 visualize_grid(point.coord, xmin, xmax, ymin, ymax, 0);
 
+%% create point connectivity
+point = create_point_connectivity(marker, point);
