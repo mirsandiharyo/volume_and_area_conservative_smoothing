@@ -16,5 +16,8 @@ two_nodes = true; % if false then single node relaxation is used.
 %% read the grid
 [marker, point] = read_grid();
 
-
+%% visualize the initial grid
+% set the boundary for visualization
+[xmin, xmax, ymin, ymax] = set_boundary(point);
+visualize_grid(point.coord, xmin, xmax, ymin, ymax, 0);
 
