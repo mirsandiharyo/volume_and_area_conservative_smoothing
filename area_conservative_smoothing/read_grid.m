@@ -11,14 +11,14 @@ function[marker, point] = read_grid()
     % read the marker elements
     read_line = regexp(fgetl(fid), '\t', 'split');
     marker.total = str2double(read_line{2});
-    [marker.vertex1, marker.vertex2] = deal(zeros(marker.total, 1));
+    marker.vertex = zeros(marker.total, 2);
     fgetl(fid);
     % each marker has two vertices
     for num=1:marker.total
         read_line = regexp(fgetl(fid), '\t', 'split');
         marker_num = str2double(read_line{1});
-        marker.vertex1(marker_num) = str2double(read_line{2});
-        marker.vertex2(marker_num) = str2double(read_line{3});    
+        marker.vertex(marker_num, 1) = str2double(read_line{2});
+        marker.vertex(marker_num, 2) = str2double(read_line{3});    
     end
     fgetl(fid);
     % read the point coordinates
