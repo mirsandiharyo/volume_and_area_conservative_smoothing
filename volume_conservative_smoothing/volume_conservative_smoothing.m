@@ -20,3 +20,6 @@ max_iter = 20;
 [xmin, xmax, ymin, ymax, zmin, zmax] = set_boundary(point);
 visualize_grid(marker.vertex, point.coord, xmin, xmax, ymin, ymax, ...
     zmin, zmax, 0);
+
+%% create point connectivity
+point = create_point_connectivity(marker, point);
