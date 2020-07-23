@@ -13,7 +13,6 @@ delete output/iter_*;
 global max_neighbor
 max_neighbor = 20; % maximum neighboring points
 max_iter = 200;    % maximum iteration
-two_nodes = true;  % if false then single node relaxation is used
 read_file = false; % if true then it will read the input file 
 omega = 1;         % relaxation parameter (0 <= omega <= 1)
 output_freq = 10;  % output frequency

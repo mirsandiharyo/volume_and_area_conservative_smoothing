@@ -1,3 +1,4 @@
+% Copy the marker list of a given point.
 function[list] = copy_marker_list(pt_num, point)
     list_count = point.mrk_count(pt_num);
     list = zeros(list_count, 1)-1;
