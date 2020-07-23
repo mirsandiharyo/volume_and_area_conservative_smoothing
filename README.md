@@ -11,7 +11,8 @@
 <img src="https://user-images.githubusercontent.com/16385717/87991143-d2bacb00-cae5-11ea-8908-8ed4bb099d2c.gif" width=45% height=45%> <img src="https://user-images.githubusercontent.com/16385717/87969893-3aabea00-cac3-11ea-97d7-3a8a05c8e6f7.gif" width=45% height=45%> 
 
 * Volume conservative smoothing:
-will be included
+
+<img src="https://user-images.githubusercontent.com/16385717/88283336-7b864780-cceb-11ea-87db-fd4fc18b2a27.gif" width=65% height=65%>
 
 _________________________________
 ### Contact Details ###
