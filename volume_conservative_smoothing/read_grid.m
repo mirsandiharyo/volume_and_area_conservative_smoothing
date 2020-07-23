@@ -4,11 +4,10 @@
 % calculation of normal vector.
 function[marker, point] = read_grid()
     origin_path = pwd;
-%     disp('choose the input file (.txt)');
-%     [input_name, file_path] = uigetfile('.txt');
-%     cd(file_path);
-%     fid = fopen(input_name);
-    fid = fopen("input/example_3d_1.txt");
+    disp('choose the input file (.txt)');
+    [input_name, file_path] = uigetfile('.txt');
+    cd(file_path);
+    fid = fopen(input_name);
     % read the marker elements
     read_line = regexp(fgetl(fid), '\t', 'split');
     marker.total = str2double(read_line{2});

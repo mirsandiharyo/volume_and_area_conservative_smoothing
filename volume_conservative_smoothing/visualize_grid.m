@@ -1,6 +1,7 @@
 % Visualize the grid
 function[] = visualize_grid(faces, vertices, xmin, xmax, ymin, ymax, ...
     zmin, zmax, iter)
+    clf;
     h = patch('Faces',faces,'Vertices',vertices,'FaceColor','red');
     alpha(0.5);
     % set the limit and aspect ratio of the image
@@ -13,7 +14,7 @@ function[] = visualize_grid(faces, vertices, xmin, xmax, ymin, ymax, ...
     view(3);
     pbaspect([(xmax-xmin) (ymax-ymin) (zmax-zmin)]);
     % change the camera angle
-    camorbit(0,-15,'camera');
+    camorbit(0,-40,'camera');
     drawnow;
     % set the caption
     caption = sprintf('Iteration = %d', iter);
