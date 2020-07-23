@@ -42,10 +42,7 @@ for iter=1:max_iter
             for count=1:point.pt_count(num1)
                 num2 = point.connect_pt(num1, count);
                 if (point.pt_count(num2) ~= -1)
-                    % only for higher ID
-                    if (num1 < num2)
-                        point = two_nodes_relaxation(num1, num2, point, omega);
-                    end
+                    point = two_nodes_relaxation(num1, num2, point, omega);
                 end
             end
         end
