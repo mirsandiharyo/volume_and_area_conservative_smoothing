@@ -12,7 +12,7 @@
 
 * Volume conservative smoothing:
 
-<img src="https://user-images.githubusercontent.com/16385717/88283336-7b864780-cceb-11ea-87db-fd4fc18b2a27.gif" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/16385717/88291288-47fdea00-ccf8-11ea-9237-67ff8478e130.gif" width=45% height=45%> <img src="https://user-images.githubusercontent.com/16385717/88283336-7b864780-cceb-11ea-87db-fd4fc18b2a27.gif" width=45% height=45%>
 
 _________________________________
 ### Contact Details ###
