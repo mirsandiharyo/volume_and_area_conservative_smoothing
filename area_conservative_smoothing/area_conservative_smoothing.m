@@ -1,6 +1,7 @@
 %% 
 % Area conserving smoothing of curve grids using single node 
 % or two nodes relaxations.
+% % The code can handle closed and non-closed lines.
 % Reference: Kuprat et al., J Comput. Phys., 172 (2001), 99-118.
 % Created by: Haryo Mirsandi
 
