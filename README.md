@@ -3,6 +3,7 @@
 ### Project title ###
 
 * Volume and area conservative smoothing for piecewise linear curves and surfaces.
+* The code can handle closed and non-closed lines/surfaces.
 * Reference: Kuprat et al., J Comput. Phys., 172 (2001), 99-118.
 
 ### Example
