@@ -1,6 +1,6 @@
 # README #
 
-### Project title ###
+### Volume and Area Conservative Smoothing ###
 
 * Volume and area conservative smoothing for piecewise linear curves and surfaces.
 * The code can handle closed and non-closed lines/surfaces.
